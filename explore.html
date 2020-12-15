@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="icon" href="Images/Logo.jpg">
+    <script src="https://kit.fontawesome.com/ab11d666cc.js" crossorigin="anonymous"></script>
+    
+
+    <title>Explore</title>
+</head>
+<body>
+
+
+    <nav class="navbar sticky-top navbar-dark bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logocska.png" alt="Logo"></a>
+            <div class="d-flex justify-content-between"></div>
+                    <button class="btn btn-outline-success" type="submit">Gallery</button>
+                  </form>
+                </div>
+              </nav>
+            
+        </div>
+      </nav>
+
+      <div class="intro" class="view">
+           <div class="full-bg-img">
+            <h1>
+                Select an ocean
+            </h1>
+           <div class="d-grid gap-2 col-6 mx-auto">
+            <a href="#Pacific" class="btn btn-primary"> Pacific</a>
+            <button class="btn btn-primary" type="button">Atlantic</button>
+            <button class="btn btn-primary" type="button">Indian</button>
+            <button class="btn btn-primary" type="button">Southern</button>
+            <button class="btn btn-primary" type="button">Arctic</button>       
+          </div>
+           </div>
+      </div>
+
+
+      <div class="Pacific" class="view">
+           <div class="full-bg-img">
+           <h2>
+               Pacific
+           </h2>
+           <p>
+            The Pacific Ocean is the largest and deepest of Earth's oceanic divisions. It covers more than 30% of the earth's surface. It extends from the Arctic Ocean in the north to the Southern Ocean in the south and is bounded by the continents of Asia and Australia in the west and the Americas in the east. The name Pacific is a version of pacify or peaceful. It was named by the explorer Ferdinand Magellan in 1520 as he sailed through a calm patch of water on the ocean. The Pacific Ocean has most of the islands in the world. There are about 25,000 islands in the Pacific Ocean. The oceans tend to be stratified, the principal factor being temperature; the bottom waters of the deep parts are intensely cold, with temperatures only slightly above freezing.
+           </p>
+           </div>
+      </div>
+
+      <div class="Pacificinfo" class="view">
+           <div class="full-bg-img">
+               <div class="msg-container">
+                   <div id="slider">
+                       <div class="msg-col">
+                           <h3>Places</h3>
+                           <p2>The Mariana Trench is one such deep ocean trench that sits along the Ring of Fire in the Mariana Archipelago east of the Philippines. It's the deepest known spot on the planet—deeper than Mt. Everest is tall, reaching down roughly seven miles. The deepest point in the trench is called Challenger Deep, at 36,000 feet down. Scientists are just beginning to learn about life in the deepest parts of the oceans. Creatures in the deep sea exist in waters with zero light, crushing pressure, and conditions no human could ever survive. Yet the deep sea is home to a diverse group of sea creatures with mysterious lives, from glowing lures to huge eyes. Scientists know little about many of these creatures and the roles they may play in the global ecosystem because they are so hard to study.</p2>
+                           
+                       </div>
+                       <div class="msg-col">
+                        <h3>Animals</h3>
+                        <p2>The Mariana Trench is one such deep ocean trench that sits along the Ring of Fire in the Mariana Archipelago east of the Philippines. It's the deepest known spot on the planet—deeper than Mt. Everest is tall, reaching down roughly seven miles. The deepest point in the trench is called Challenger Deep, at 36,000 feet down. Scientists are just beginning to learn about life in the deepest parts of the oceans. Creatures in the deep sea exist in waters with zero light, crushing pressure, and conditions no human could ever survive. Yet the deep sea is home to a diverse group of sea creatures with mysterious lives, from glowing lures to huge eyes. Scientists know little about many of these creatures and the roles they may play in the global ecosystem because they are so hard to study.</p2>
+                    </div>
+                    <div class="msg-col">
+                        <h3>Organization</h3>
+                        <p2>The Mariana Trench is one such deep ocean trench that sits along the Ring of Fire in the Mariana Archipelago east of the Philippines. It's the deepest known spot on the planet—deeper than Mt. Everest is tall, reaching down roughly seven miles. The deepest point in the trench is called Challenger Deep, at 36,000 feet down. Scientists are just beginning to learn about life in the deepest parts of the oceans. Creatures in the deep sea exist in waters with zero light, crushing pressure, and conditions no human could ever survive. Yet the deep sea is home to a diverse group of sea creatures with mysterious lives, from glowing lures to huge eyes. Scientists know little about many of these creatures and the roles they may play in the global ecosystem because they are so hard to study.</p2>
+                    </div>
+                   </div>
+               </div>
+
+               <div class="controller">
+                   <div id="line1"></div>
+                   <div id="line2"></div>
+                   <div id="line3"></div>
+                   <div id="active"></div>
+               </div>
+           </div>        
+      </div>
+
+      <script>
+
+         var slider = document.getElementById('slider');
+         var active = document.getElementById('active');
+         var line1 = document.getElementById('line1');
+         var line2 = document.getElementById('line2');
+         var line3 = document.getElementById('line3');
+
+         line1.onclick = function(){
+             slider.style.transform = 'translateX(0)';
+             active.style.top = '0px';
+         }
+         line2.onclick = function(){
+             slider.style.transform = 'translateX(-33.3%)';
+             active.style.top = '80px';
+         }
+         line3.onclick = function(){
+             slider.style.transform = 'translateX(-66.6%)';
+             active.style.top = '160px';
+         }
+
+      </script>
+
+     <style>
+         .carousel-item{
+             height: 100vh;
+             position: relative;            
+             color: white;
+         }
+       
+     </style>
+     
+     <div id="myCarousel" class="carousel slide"
+              data-ride="carousel">
+     <ol class="carousel-indicators">
+         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#myCarousel" data-slide-to="1"></li>
+     </ol>
+     <div class="carousel-inner">
+
+       <div class="carousel-item active" style="background-image:url(images/darkthree.jpg)">
+         <div class="container">
+             <h6>Example</h6>
+             <p5>sgsgfgsfgfgdfgdfgdfgdfgfdgdf
+                 dfdfgdfgdfgdfgdfgdfgdfdfgfdgdfg
+                 fdgdfgdfgdfgfdgdfgfdgdfgdfg
+             </p5>
+         </div>
+       </div>     
+       <div class="carousel-item active " style="background-image:url(images/darkthree.jpg)">
+        <div class="container">
+            <h6>Example</h6>
+            <p5>sgsgfgsfgfgdfgdfgdfgdfgfdgdf
+                dfdfgdfgdfgdfgdfgdfgdfdfgfdgdfg
+                fdgdfgdfgdfgfdgdfgfdgdfgdfg
+            </p5>
+        </div>
+       </div>           
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="sr-only">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+    </div>
+  
+    <div class="Pacific" class="view">
+        <div class="full-bg-img">
+        <h2>
+           <a name="Pacific"> Pacific </a>
+        </h2>
+        <p>
+         The Pacific Ocean is the largest and deepest of Earth's oceanic divisions. It covers more than 30% of the earth's surface. It extends from the Arctic Ocean in the north to the Southern Ocean in the south and is bounded by the continents of Asia and Australia in the west and the Americas in the east. The name Pacific is a version of pacify or peaceful. It was named by the explorer Ferdinand Magellan in 1520 as he sailed through a calm patch of water on the ocean. The Pacific Ocean has most of the islands in the world. There are about 25,000 islands in the Pacific Ocean. The oceans tend to be stratified, the principal factor being temperature; the bottom waters of the deep parts are intensely cold, with temperatures only slightly above freezing.
+        </p>
+        </div>
+   </div>
+
+   <div class="Pacific" class="view">
+    <div class="full-bg-img">
+    <h2>
+        Pacific
+    </h2>
+    <p>
+     The Pacific Ocean is the largest and deepest of Earth's oceanic divisions. It covers more than 30% of the earth's surface. It extends from the Arctic Ocean in the north to the Southern Ocean in the south and is bounded by the continents of Asia and Australia in the west and the Americas in the east. The name Pacific is a version of pacify or peaceful. It was named by the explorer Ferdinand Magellan in 1520 as he sailed through a calm patch of water on the ocean. The Pacific Ocean has most of the islands in the world. There are about 25,000 islands in the Pacific Ocean. The oceans tend to be stratified, the principal factor being temperature; the bottom waters of the deep parts are intensely cold, with temperatures only slightly above freezing.
+    </p>
+    </div>
+</div>
+
+      
+    
+     
+    
+    <!-- JQuery and JS Bundle w/ Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
+

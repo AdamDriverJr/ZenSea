@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins",sans-serif;
+}
+
+.container-fluid {
+  font-size: 32px;
+}
+
+.navbar-nav a {
+  color: #000000 !important;
+  margin: 0 px;
+  margin-top: 4px;
+}
+
+.navbar-toggler {
+  -webkit-columns: #000000 !important;
+          columns: #000000 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler .fa {
+  color: #000;
+  font-size: 42px;
+}
+
+.intro {
+  background: url(../images/background1.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px;
+}
+
+.bg-dark {
+  background-color: white !important;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 20px;
+  font-size: 27px;
+  border: 4px solid;
+}
+
+h1 {
+  font-size: 40px;
+  color: #050505;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 94%;
+  left: 58%;
+  -webkit-transform: translate(-94%);
+          transform: translate(-94%);
+}
+
+.Pacific {
+  background: url(../images/darkone.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.Pacific h2 {
+  font-size: 32px;
+  color: #f7f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 123%;
+  left: 53%;
+  -webkit-transform: translate(-123%);
+          transform: translate(-123%);
+}
+
+p {
+  font-size: 20px;
+  color: #fffafa;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  top: 133%;
+  left: 72%;
+  -webkit-transform: translate(-133%);
+          transform: translate(-133%);
+  line-height: 32px;
+}
+
+.Pacificinfo {
+  background: url(../images/darktwo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.msg-container {
+  width: 600px;
+  height: 280px;
+  position: absolute;
+  left: 96%;
+  top: 230%;
+  -webkit-transform: translate(-230%);
+          transform: translate(-230%);
+  color: #f7f0f0;
+  overflow: hidden;
+}
+
+#slider {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.msg-col {
+  width: 600px;
+  height: 280px;
+}
+
+.msg-col h3 {
+  color: #f7f0f0;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 10px 0;
+}
+
+.msg-col p2 {
+  color: #f7f0f0;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.controller {
+  width: 13px;
+  height: 243px;
+  display: block;
+  background: #f7f0f0;
+  position: absolute;
+  top: 230%;
+  right: 7%;
+  -webkit-transform: translate(-230%);
+          transform: translate(-230%);
+}
+
+#line1, #line2, #line3 {
+  height: 100px;
+  width: 10px;
+  cursor: pointer;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#active {
+  width: 20px;
+  height: 80px;
+  right: 7%;
+  border-radius: 10px;
+  background: #f7f0f0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.about-us {
+  background: url(../images/darkten.jpg);
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  position: absolute;
+  top: 140%;
+  left: 58%;
+  -webkit-transform: translate(-140%);
+          transform: translate(-140%);
+}
+
+p4 {
+  font-size: 19px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  position: absolute;
+  top: 162%;
+  left: 76%;
+  -webkit-transform: translate(-162%);
+          transform: translate(-162%);
+  line-height: 32px;
+}
+
+h6 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
